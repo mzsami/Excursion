@@ -8,7 +8,36 @@ h1 {
     color: white;
     text-align: center;
 }
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+    text-align: center;
+}
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    font-weight: normal;
+    color: gray;
+}
 a {
     color: aquamarine;
     font-size: 16px;
+    text-align: center;
+}
+
+
+.center-container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.center-container video,
+.center-container img {
+    height: auto;
+}
+h3 div company-logo-footer {
+    text-align: right;
 }
