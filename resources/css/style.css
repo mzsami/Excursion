@@ -24,7 +24,8 @@ h3 {
 a {
     color: aquamarine;
     font-size: 16px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -38,6 +39,6 @@ flex-direction: column;
 .center-container img {
     height: auto;
 }
-h3 div company-logo-footer {
+footer{
     text-align: right;
 }
